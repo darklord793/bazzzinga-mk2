@@ -1,9 +1,9 @@
-main div .btn {
+.btn {
     display: flex;
     justify-content: space-around;
 }
 
-main div .btn .button {
+.btn .button {
     padding: 5px;
     text-align: center;
     text-decoration: none;
