@@ -91,25 +91,6 @@ main .button-container-best-tours .button-best-tours {
     min-width: 100px;
 }
 
-@media (min-width: 300px) {
-    header {
-        margin-top: -2%;
-        min-height: 80px;
-    }
-    
-    nav div {
-        display: flex;
-    }
-    
-    nav div .main-menu {
-        flex: 1;
-        font-size: 7px;
-        justify-content: stretch;
-        align-items: stretch;
-        text-align: center;
-        padding: 0%;
-    }
-}
 
 @media (min-width: 450px) {
 main input {
@@ -128,4 +109,11 @@ main div .muve-info {
 		justify-content: stretch;
         align-items: stretch;
     }  
+}
+
+@media (min-width: 950px) {
+    
+    header {
+        min-height: 120px;
+    }
 }
